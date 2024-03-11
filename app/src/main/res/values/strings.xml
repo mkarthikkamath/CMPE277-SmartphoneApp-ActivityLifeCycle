@@ -7,4 +7,10 @@
     <string name="sjsu_logo">SJSU LOGO</string>
     <string name="exit">Exit</string>
     <string name="thread_counter">Thread Counter:</string>
+    <string name="activity_b">Activity B</string>
+    <string name="activity_b_message">Activity B occupies the complete window real-estate. The Android OS forces Activity A to be Paused. However, the background thread keeps incrementing the counter…</string>
+    <string name="activity_c_message">Activity C occupies the complete window real-estate. The Android OS forces Activity A to be Paused. However, the background thread keeps incrementing the counter…</string>
+    <string name="finish_b">Finish B</string>
+    <string name="activity_c">Activity C</string>
+    <string name="finish_c">Finish C</string>
 </resources>
