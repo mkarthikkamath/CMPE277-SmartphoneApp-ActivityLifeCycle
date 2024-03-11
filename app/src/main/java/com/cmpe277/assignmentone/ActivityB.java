@@ -1,7 +1,7 @@
 package com.cmpe277.assignmentone;
 
 import android.os.Bundle;
-
+import android.widget.Button;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -20,5 +20,9 @@ public class ActivityB extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        Button back_btn = findViewById(R.id.back_btn_b);
+
+        back_btn.setOnClickListener(v -> finish());
     }
 }
